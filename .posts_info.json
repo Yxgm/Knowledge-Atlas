@@ -1,0 +1,1334 @@
+{
+  "words_info" : {
+    "Vue相关\/阅读源码记录.md" : 686,
+    "浏览器相关\/渲染机制.md" : 3178,
+    "React相关\/react大体架构.md" : 1361,
+    "浏览器相关\/定时器.md" : 499,
+    "浏览器相关\/RAF  RIC.md" : 604,
+    "Js相关\/箭头函数.md" : 236,
+    "补充的重点知识\/前端工程化.md" : 292,
+    "Vue相关\/vue高级用法.md" : 734,
+    "React相关\/fiber.md" : 294,
+    "Vue相关\/三种watcher.md" : 1935,
+    "webpack相关\/webpack理解.md" : 2287,
+    "React相关\/connect函数总结.md" : 564,
+    "浏览器相关\/请求相关.md" : 773,
+    "补充的重点知识\/状态管理.md" : 417,
+    "浏览器相关\/事件循环.md" : 1470,
+    "从0开始\/html-5.md" : 186,
+    "浏览器相关\/事件模型.md" : 660,
+    "Vue相关\/vue3响应式原理.md" : 153,
+    "从0开始\/css-3.md" : 25,
+    "Vue相关\/vue实例和vnode.md" : 280,
+    "Vue相关\/手写vuex.md" : 196,
+    "算法相关\/根据对象id去重.md" : 136,
+    "Js相关\/Promise核心.md" : 1383,
+    "Js相关\/类、原型、原型链.md" : 1495,
+    "webpack相关\/模块化理解.md" : 783,
+    "React相关\/一些问题的解释.md" : 26,
+    "React相关\/redux的纯函数.md" : 618,
+    "浏览器相关\/SSR.md" : 145,
+    "浏览器相关\/缓存策略.md" : 820,
+    "Vue相关\/模版编译原理.md" : 123,
+    "浏览器相关\/内置对象.md" : 723,
+    "React相关\/卡颂.md" : 102,
+    "补充的重点知识\/事件总线引出的一些问题.md" : 690,
+    "Vue相关\/vue3细节补充.md" : 438,
+    "React相关\/react的router.md" : 443,
+    "算法相关\/平铺转树.md" : 180,
+    "React相关\/react渲染过程.md" : 631,
+    "Js相关\/手写Promise.md" : 745,
+    "React相关\/what is react.md" : 401,
+    "axios相关\/拦截器实现原理.md" : 678,
+    "浏览器相关\/Worker.md" : 1278,
+    "React相关\/redux中间件异步操作.md" : 499
+  },
+  "name_path_info" : {
+    "定时器" : "浏览器相关\/定时器.md",
+    "redux的纯函数" : "React相关\/redux的纯函数.md",
+    "html-5" : "从0开始\/html-5.md",
+    "一些问题的解释" : "React相关\/一些问题的解释.md",
+    "状态管理" : "补充的重点知识\/状态管理.md",
+    "类、原型、原型链" : "Js相关\/类、原型、原型链.md",
+    "根据对象id去重" : "算法相关\/根据对象id去重.md",
+    "worker" : "浏览器相关\/Worker.md",
+    "what is react" : "React相关\/what is react.md",
+    "事件总线引出的一些问题" : "补充的重点知识\/事件总线引出的一些问题.md",
+    "vue实例和vnode" : "Vue相关\/vue实例和vnode.md",
+    "平铺转树" : "算法相关\/平铺转树.md",
+    "promise核心" : "Js相关\/Promise核心.md",
+    "请求相关" : "浏览器相关\/请求相关.md",
+    "事件循环" : "浏览器相关\/事件循环.md",
+    "内置对象" : "浏览器相关\/内置对象.md",
+    "redux中间件异步操作" : "React相关\/redux中间件异步操作.md",
+    "raf  ric" : "浏览器相关\/RAF  RIC.md",
+    "箭头函数" : "Js相关\/箭头函数.md",
+    "模块化理解" : "webpack相关\/模块化理解.md",
+    "vue高级用法" : "Vue相关\/vue高级用法.md",
+    "react大体架构" : "React相关\/react大体架构.md",
+    "react渲染过程" : "React相关\/react渲染过程.md",
+    "手写promise" : "Js相关\/手写Promise.md",
+    "事件模型" : "浏览器相关\/事件模型.md",
+    "connect函数总结" : "React相关\/connect函数总结.md",
+    "三种watcher" : "Vue相关\/三种watcher.md",
+    "缓存策略" : "浏览器相关\/缓存策略.md",
+    "css-3" : "从0开始\/css-3.md",
+    "react的router" : "React相关\/react的router.md",
+    "ssr" : "浏览器相关\/SSR.md",
+    "webpack理解" : "webpack相关\/webpack理解.md",
+    "卡颂" : "React相关\/卡颂.md",
+    "拦截器实现原理" : "axios相关\/拦截器实现原理.md",
+    "模版编译原理" : "Vue相关\/模版编译原理.md",
+    "vue3响应式原理" : "Vue相关\/vue3响应式原理.md",
+    "手写vuex" : "Vue相关\/手写vuex.md",
+    "fiber" : "React相关\/fiber.md",
+    "前端工程化" : "补充的重点知识\/前端工程化.md",
+    "渲染机制" : "浏览器相关\/渲染机制.md",
+    "阅读源码记录" : "Vue相关\/阅读源码记录.md",
+    "vue3细节补充" : "Vue相关\/vue3细节补充.md"
+  },
+  "relative_folders" : [
+    "React相关",
+    "算法相关",
+    "浏览器相关",
+    "补充的重点知识",
+    "axios相关",
+    "Js相关",
+    "Vue相关",
+    "从0开始",
+    "assets",
+    "webpack相关"
+  ],
+  "documents_meta_info" : {
+    "Js相关\/Promise核心.md" : {
+
+    },
+    "Vue相关\/vue3响应式原理.md" : {
+
+    },
+    "补充的重点知识\/前端工程化.md" : {
+
+    },
+    "React相关\/fiber.md" : {
+
+    },
+    "webpack相关\/模块化理解.md" : {
+
+    },
+    "浏览器相关\/SSR.md" : {
+
+    },
+    "Js相关\/类、原型、原型链.md" : {
+
+    },
+    "React相关\/what is react.md" : {
+
+    },
+    "React相关\/redux中间件异步操作.md" : {
+
+    },
+    "浏览器相关\/请求相关.md" : {
+
+    },
+    "Vue相关\/三种watcher.md" : {
+
+    },
+    "webpack相关\/webpack理解.md" : {
+
+    },
+    "浏览器相关\/渲染机制.md" : {
+
+    },
+    "React相关\/react渲染过程.md" : {
+
+    },
+    "浏览器相关\/事件模型.md" : {
+
+    },
+    "React相关\/卡颂.md" : {
+
+    },
+    "补充的重点知识\/状态管理.md" : {
+
+    },
+    "浏览器相关\/定时器.md" : {
+
+    },
+    "React相关\/react大体架构.md" : {
+      "两种工作方式" : "workLoopSync：同步、workLoopConcurrent：时间切片",
+      "raw_metadata_str" : "两种工作方式:workLoopSync：同步、workLoopConcurrent：时间切片"
+    },
+    "React相关\/redux的纯函数.md" : {
+
+    },
+    "浏览器相关\/RAF  RIC.md" : {
+
+    },
+    "Vue相关\/模版编译原理.md" : {
+
+    },
+    "axios相关\/拦截器实现原理.md" : {
+
+    },
+    "Vue相关\/vue实例和vnode.md" : {
+
+    },
+    "Vue相关\/vue3细节补充.md" : {
+
+    },
+    "浏览器相关\/Worker.md" : {
+
+    },
+    "React相关\/一些问题的解释.md" : {
+      "raw_metadata_str" : "对于一些问题解释:",
+      "对于一些问题解释" : ""
+    },
+    "浏览器相关\/内置对象.md" : {
+
+    },
+    "Vue相关\/阅读源码记录.md" : {
+
+    },
+    "算法相关\/平铺转树.md" : {
+
+    },
+    "React相关\/connect函数总结.md" : {
+
+    },
+    "补充的重点知识\/事件总线引出的一些问题.md" : {
+
+    },
+    "浏览器相关\/缓存策略.md" : {
+
+    },
+    "Vue相关\/手写vuex.md" : {
+
+    },
+    "Js相关\/手写Promise.md" : {
+
+    },
+    "Js相关\/箭头函数.md" : {
+
+    },
+    "React相关\/react的router.md" : {
+
+    },
+    "Vue相关\/vue高级用法.md" : {
+
+    },
+    "从0开始\/css-3.md" : {
+      "动画" : "",
+      "raw_metadata_str" : "动画:"
+    },
+    "浏览器相关\/事件循环.md" : {
+
+    },
+    "从0开始\/html-5.md" : {
+
+    },
+    "算法相关\/根据对象id去重.md" : {
+
+    }
+  },
+  "todo_list" : {
+
+  },
+  "toc_hash_info" : {
+
+  },
+  "files_mtime_info" : {
+    "React相关\/react的router.md" : 1645837505,
+    "Vue相关\/vue3细节补充.md" : 1646534986,
+    "Js相关\/箭头函数.md" : 1642939097,
+    "React相关\/react渲染过程.md" : 1646571025,
+    "Js相关\/手写Promise.md" : 1643075636,
+    "算法相关\/平铺转树.md" : 1646382848,
+    "axios相关\/拦截器实现原理.md" : 1643540303,
+    "浏览器相关\/请求相关.md" : 1646291569,
+    "浏览器相关\/RAF  RIC.md" : 1646561448,
+    "Vue相关\/vue高级用法.md" : 1646392597,
+    "浏览器相关\/Worker.md" : 1646561606,
+    "React相关\/redux中间件异步操作.md" : 1643530412,
+    "React相关\/redux的纯函数.md" : 1643283806,
+    "Js相关\/类、原型、原型链.md" : 1645523482,
+    "React相关\/卡颂.md" : 1646572594,
+    "补充的重点知识\/状态管理.md" : 1645237265,
+    "Vue相关\/vue实例和vnode.md" : 1645443886,
+    "Vue相关\/模版编译原理.md" : 1645443624,
+    "补充的重点知识\/事件总线引出的一些问题.md" : 1644475551,
+    "从0开始\/html-5.md" : 1645502101,
+    "浏览器相关\/事件模型.md" : 1646382004,
+    "浏览器相关\/定时器.md" : 1646561023,
+    "浏览器相关\/缓存策略.md" : 1646561423,
+    "浏览器相关\/事件循环.md" : 1646561430,
+    "从0开始\/css-3.md" : 1645509830,
+    "Vue相关\/手写vuex.md" : 1645709682,
+    "Vue相关\/阅读源码记录.md" : 1645709617,
+    "webpack相关\/模块化理解.md" : 1644216885,
+    "React相关\/一些问题的解释.md" : 1646009914,
+    "浏览器相关\/SSR.md" : 1646395214,
+    "Vue相关\/vue3响应式原理.md" : 1646554310,
+    "补充的重点知识\/前端工程化.md" : 1645244987,
+    "算法相关\/根据对象id去重.md" : 1644050851,
+    "Vue相关\/三种watcher.md" : 1644723532,
+    "React相关\/what is react.md" : 1646571562,
+    "React相关\/connect函数总结.md" : 1643944482,
+    "webpack相关\/webpack理解.md" : 1644241362,
+    "React相关\/fiber.md" : 1646566402,
+    "浏览器相关\/渲染机制.md" : 1646531738,
+    "浏览器相关\/内置对象.md" : 1646472543,
+    "Js相关\/Promise核心.md" : 1646383031,
+    "React相关\/react大体架构.md" : 1646568163
+  },
+  "links_paths" : {
+    "Js相关\/类、原型、原型链.md" : [
+      "get",
+      "Js相关\/get.md"
+    ]
+  },
+  "relative_paths" : [
+    "补充的重点知识\/前端工程化.md",
+    "补充的重点知识\/事件总线引出的一些问题.md",
+    "补充的重点知识\/状态管理.md",
+    "axios相关\/拦截器实现原理.md",
+    "Js相关\/类、原型、原型链.md",
+    "Js相关\/Promise核心.md",
+    "Js相关\/手写Promise.md",
+    "Vue相关\/阅读源码记录.md",
+    "Vue相关\/vue3细节补充.md",
+    "Vue相关\/手写vuex.md",
+    "Vue相关\/模版编译原理.md",
+    "Vue相关\/vue3响应式原理.md",
+    "Vue相关\/三种watcher.md",
+    "Vue相关\/vue实例和vnode.md",
+    "Vue相关\/vue高级用法.md",
+    "webpack相关\/webpack理解.md",
+    "webpack相关\/模块化理解.md",
+    "React相关\/connect函数总结.md",
+    "React相关\/redux中间件异步操作.md",
+    "React相关\/react的router.md",
+    "React相关\/redux的纯函数.md",
+    "React相关\/fiber.md",
+    "React相关\/卡颂.md",
+    "React相关\/react大体架构.md",
+    "React相关\/react渲染过程.md",
+    "React相关\/what is react.md",
+    "React相关\/一些问题的解释.md",
+    "算法相关\/平铺转树.md",
+    "算法相关\/根据对象id去重.md",
+    "浏览器相关\/请求相关.md",
+    "浏览器相关\/渲染机制.md",
+    "浏览器相关\/SSR.md",
+    "浏览器相关\/事件循环.md",
+    "浏览器相关\/Worker.md",
+    "浏览器相关\/事件模型.md",
+    "浏览器相关\/缓存策略.md",
+    "浏览器相关\/定时器.md",
+    "浏览器相关\/内置对象.md",
+    "浏览器相关\/RAF  RIC.md",
+    "Js相关\/箭头函数.md",
+    "从0开始\/html-5.md",
+    "从0开始\/css-3.md"
+  ],
+  "documents_info" : {
+    "浏览器相关\/事件循环.md" : {
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ],
+      "links" : [
+
+      ]
+    },
+    "浏览器相关\/Worker.md" : {
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ],
+      "links" : [
+
+      ]
+    },
+    "Js相关\/类、原型、原型链.md" : {
+      "links" : [
+
+      ],
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "webpack相关\/模块化理解.md" : {
+      "attachments" : [
+
+      ],
+      "links" : [
+
+      ],
+      "images" : [
+
+      ]
+    },
+    "Vue相关\/vue实例和vnode.md" : {
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ],
+      "links" : [
+
+      ]
+    },
+    "Js相关\/Promise核心.md" : {
+      "images" : [
+
+      ],
+      "links" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "浏览器相关\/RAF  RIC.md" : {
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ],
+      "links" : [
+        {
+          "name" : "相关规范",
+          "url" : "https:\/\/html.spec.whatwg.org\/multipage\/webappapis.html#event-loop-processing-model"
+        }
+      ]
+    },
+    "Vue相关\/vue高级用法.md" : {
+      "links" : [
+
+      ],
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "浏览器相关\/事件模型.md" : {
+      "attachments" : [
+
+      ],
+      "images" : [
+
+      ],
+      "links" : [
+
+      ]
+    },
+    "Vue相关\/阅读源码记录.md" : {
+      "attachments" : [
+
+      ],
+      "images" : [
+
+      ],
+      "links" : [
+
+      ]
+    },
+    "Vue相关\/vue3细节补充.md" : {
+      "attachments" : [
+
+      ],
+      "links" : [
+
+      ],
+      "images" : [
+
+      ]
+    },
+    "算法相关\/根据对象id去重.md" : {
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ],
+      "links" : [
+
+      ]
+    },
+    "axios相关\/拦截器实现原理.md" : {
+      "links" : [
+
+      ],
+      "attachments" : [
+
+      ],
+      "images" : [
+
+      ]
+    },
+    "从0开始\/html-5.md" : {
+      "links" : [
+
+      ],
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "浏览器相关\/请求相关.md" : {
+      "links" : [
+
+      ],
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "Vue相关\/三种watcher.md" : {
+      "links" : [
+        {
+          "url" : "https:\/\/github.com\/vuejs\/vue\/blob\/2.6\/src\/core\/observer\/dep.js#L31",
+          "name" : "dep.depend"
+        },
+        {
+          "url" : "https:\/\/github.com\/vuejs\/vue\/blob\/edf7df0c837557dd3ea8d7b42ad8d4b21858ade0\/src\/core\/observer\/traverse.js#L14",
+          "name" : "traverse"
+        }
+      ],
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "Vue相关\/模版编译原理.md" : {
+      "attachments" : [
+
+      ],
+      "links" : [
+
+      ],
+      "images" : [
+
+      ]
+    },
+    "React相关\/react大体架构.md" : {
+      "links" : [
+
+      ],
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "补充的重点知识\/状态管理.md" : {
+      "attachments" : [
+
+      ],
+      "images" : [
+
+      ],
+      "links" : [
+
+      ]
+    },
+    "React相关\/react渲染过程.md" : {
+      "attachments" : [
+
+      ],
+      "images" : [
+
+      ],
+      "links" : [
+
+      ]
+    },
+    "浏览器相关\/内置对象.md" : {
+      "links" : [
+
+      ],
+      "attachments" : [
+
+      ],
+      "images" : [
+
+      ]
+    },
+    "浏览器相关\/定时器.md" : {
+      "images" : [
+
+      ],
+      "links" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "React相关\/react的router.md" : {
+      "links" : [
+
+      ],
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "React相关\/connect函数总结.md" : {
+      "attachments" : [
+
+      ],
+      "images" : [
+
+      ],
+      "links" : [
+
+      ]
+    },
+    "从0开始\/css-3.md" : {
+      "attachments" : [
+
+      ],
+      "links" : [
+
+      ],
+      "images" : [
+
+      ]
+    },
+    "Js相关\/手写Promise.md" : {
+      "images" : [
+
+      ],
+      "links" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "React相关\/what is react.md" : {
+      "images" : [
+
+      ],
+      "links" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "浏览器相关\/渲染机制.md" : {
+      "attachments" : [
+
+      ],
+      "images" : [
+
+      ],
+      "links" : [
+        {
+          "name" : "Houdini",
+          "url" : "https:\/\/link.juejin.cn?target=https%3A%2F%2Fsurma.link%2Fthings%2Fhoudini-intro%2F"
+        },
+        {
+          "name" : "提升性能的最佳方法",
+          "url" : "https:\/\/link.juejin.cn\/?target=https%3A%2F%2Fdevelopers.google.com%2Fweb%2Ffundamentals%2Fperformance%2Frendering%2F%23the-pixel-pipeline"
+        }
+      ]
+    },
+    "webpack相关\/webpack理解.md" : {
+      "links" : [
+
+      ],
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "Vue相关\/vue3响应式原理.md" : {
+      "links" : [
+
+      ],
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "React相关\/卡颂.md" : {
+      "images" : [
+
+      ],
+      "links" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "React相关\/fiber.md" : {
+      "attachments" : [
+
+      ],
+      "images" : [
+
+      ],
+      "links" : [
+
+      ]
+    },
+    "Vue相关\/手写vuex.md" : {
+      "images" : [
+
+      ],
+      "links" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "补充的重点知识\/事件总线引出的一些问题.md" : {
+      "attachments" : [
+
+      ],
+      "links" : [
+
+      ],
+      "images" : [
+
+      ]
+    },
+    "React相关\/redux的纯函数.md" : {
+      "attachments" : [
+
+      ],
+      "links" : [
+
+      ],
+      "images" : [
+
+      ]
+    },
+    "浏览器相关\/缓存策略.md" : {
+      "attachments" : [
+
+      ],
+      "images" : [
+
+      ],
+      "links" : [
+
+      ]
+    },
+    "React相关\/一些问题的解释.md" : {
+      "links" : [
+
+      ],
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "补充的重点知识\/前端工程化.md" : {
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ],
+      "links" : [
+
+      ]
+    },
+    "算法相关\/平铺转树.md" : {
+      "links" : [
+
+      ],
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "浏览器相关\/SSR.md" : {
+      "attachments" : [
+
+      ],
+      "links" : [
+
+      ],
+      "images" : [
+
+      ]
+    },
+    "Js相关\/箭头函数.md" : {
+      "images" : [
+
+      ],
+      "links" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "React相关\/redux中间件异步操作.md" : {
+      "links" : [
+
+      ],
+      "attachments" : [
+
+      ],
+      "images" : [
+
+      ]
+    }
+  },
+  "filename_path_info" : {
+    "vue3响应式原理" : "Vue相关\/vue3响应式原理.md",
+    "请求相关" : "浏览器相关\/请求相关.md",
+    "拦截器实现原理" : "axios相关\/拦截器实现原理.md",
+    "vue3细节补充" : "Vue相关\/vue3细节补充.md",
+    "what is react" : "React相关\/what is react.md",
+    "webpack理解" : "webpack相关\/webpack理解.md",
+    "模块化理解" : "webpack相关\/模块化理解.md",
+    "三种watcher" : "Vue相关\/三种watcher.md",
+    "promise核心" : "Js相关\/Promise核心.md",
+    "事件模型" : "浏览器相关\/事件模型.md",
+    "vue实例和vnode" : "Vue相关\/vue实例和vnode.md",
+    "状态管理" : "补充的重点知识\/状态管理.md",
+    "内置对象" : "浏览器相关\/内置对象.md",
+    "类、原型、原型链" : "Js相关\/类、原型、原型链.md",
+    "react渲染过程" : "React相关\/react渲染过程.md",
+    "worker" : "浏览器相关\/Worker.md",
+    "缓存策略" : "浏览器相关\/缓存策略.md",
+    "阅读源码记录" : "Vue相关\/阅读源码记录.md",
+    "fiber" : "React相关\/fiber.md",
+    "手写promise" : "Js相关\/手写Promise.md",
+    "事件循环" : "浏览器相关\/事件循环.md",
+    "定时器" : "浏览器相关\/定时器.md",
+    "html-5" : "从0开始\/html-5.md",
+    "vue高级用法" : "Vue相关\/vue高级用法.md",
+    "react的router" : "React相关\/react的router.md",
+    "ssr" : "浏览器相关\/SSR.md",
+    "卡颂" : "React相关\/卡颂.md",
+    "渲染机制" : "浏览器相关\/渲染机制.md",
+    "箭头函数" : "Js相关\/箭头函数.md",
+    "模版编译原理" : "Vue相关\/模版编译原理.md",
+    "平铺转树" : "算法相关\/平铺转树.md",
+    "connect函数总结" : "React相关\/connect函数总结.md",
+    "手写vuex" : "Vue相关\/手写vuex.md",
+    "css-3" : "从0开始\/css-3.md",
+    "react大体架构" : "React相关\/react大体架构.md",
+    "redux中间件异步操作" : "React相关\/redux中间件异步操作.md",
+    "事件总线引出的一些问题" : "补充的重点知识\/事件总线引出的一些问题.md",
+    "一些问题的解释" : "React相关\/一些问题的解释.md",
+    "根据对象id去重" : "算法相关\/根据对象id去重.md",
+    "前端工程化" : "补充的重点知识\/前端工程化.md",
+    "redux的纯函数" : "React相关\/redux的纯函数.md",
+    "raf  ric" : "浏览器相关\/RAF  RIC.md"
+  },
+  "toc_info" : {
+    "Js相关\/类、原型、原型链.md" : [
+      "0,#### 1.new调用函数和普通函数有什么区别",
+      "1,#### 3.引出原型和原型链概念",
+      "2,####  4 .创建对象方案：",
+      "3,#### 5.对类的理解大彻大悟",
+      "4,#### 6.super"
+    ],
+    "浏览器相关\/内置对象.md" : [
+      "0,### 常见浏览器 JS 对象常见 API 及用法",
+      "1,#### 什么是浏览器对象模型",
+      "2,#### Window 对象",
+      "3,#### Location 对象",
+      "4,#### Navigation 对象",
+      "5,#### History 对象"
+    ],
+    "Js相关\/手写Promise.md" : [
+
+    ],
+    "浏览器相关\/缓存策略.md" : [
+      "0,#                         浏览器缓存机制",
+      "1,## 首先要说的是，浏览器缓存是建立在第一次访问目的资源",
+      "2,# HTTP缓存策略分两种：",
+      "3,#### 在这之前需要知道的请求头：",
+      "4,##### \t etag的优点：",
+      "5,##### \t\ta. Last-Modified 标注的最后修改只能精确到秒级，如果某些文件在 1 秒钟以内，被修改多次的话，它将不能准确标注文件的新鲜度；",
+      "6,##### \t\tb. 某些文件也许会周期性的更改，但是他的内容并不改变(仅仅改变的修改时间)，但 Last-Modified 却改变了，导致文件没法使用缓存；",
+      "7,##### \t\tc. 有可能存在服务器没有准确获取文件修改时间，或者与代理服务器时间不一致等情形。",
+      "8,## 个人理解：",
+      "9,# 位置缓存分四种：",
+      "10,### Service Worker（简单理解，不再做过多扩展）："
+    ],
+    "Vue相关\/vue高级用法.md" : [
+      "0,## vue进阶用法",
+      "1,### 特征一：模板化",
+      "2,#### 插槽",
+      "3,##### 具名插槽：以name标识插槽的身份，从而在组件内部做到可区分",
+      "4,##### 作用域插槽：外部做结构描述勾勒，内部做传参",
+      "5,#### 模板数据的二次加工",
+      "6,#### jsx 更自由的基于js书写",
+      "7,### 特征二：组件化",
+      "8,#### 传统模板化",
+      "9,#### 1. 混入mixin - 逻辑混入",
+      "10,#### 2. 继承拓展extends - 逻辑拓展",
+      "11,#### 3. 整体拓展类extend.    `Vue.extend(）`",
+      "12,#### Vue.use - 插件",
+      "13,#### 组件的高级引用"
+    ],
+    "补充的重点知识\/事件总线引出的一些问题.md" : [
+      "0,###  学习这个知识点，主要是一次面试题（模拟一个vuex集中数据管理）",
+      "1,##### 抛出的第一个问题：vue实例身上的事件总线：",
+      "2,### 第二个问题：全局事件总线",
+      "3,### 第三个问题：实现一个数据管理"
+    ],
+    "补充的重点知识\/状态管理.md" : [
+      "0,### 数据驱动：状态驱动视图",
+      "1,### 状态管理的两种方式：中心化和去中心化两种模式",
+      "2,### VUEX的源码",
+      "3,##### vuex给我们提供最佳范式：规范我们的数据管理方式",
+      "4,### REDUX的源码"
+    ],
+    "从0开始\/html-5.md" : [
+      "0,# 开始学习html5",
+      "1,### \\<head>标签里有什么？",
+      "2,#### 1. 元数据\\<meta>",
+      "3,#### 2.\\<link>",
+      "4,#### 3.\\<html>"
+    ],
+    "React相关\/一些问题的解释.md" : [
+
+    ],
+    "浏览器相关\/请求相关.md" : [
+      "0,## 请求头（request header）：",
+      "1,## 响应头（response header）：",
+      "2,## 状态码（status）：",
+      "3,#### 面试题：",
+      "4,### fetch 的中断",
+      "5,### axios 的中断",
+      "6,### umi-request 中断请求"
+    ],
+    "浏览器相关\/事件循环.md" : [
+      "0,### 1. 浏览器的GPU线程和web前端密切相关，包括如下线程：",
+      "1,### 2. 任务队列分为`macro-task`（宏任务）与`micro-task`（微任务），在最新标准中，它们被分别称为`task`与`jobs`",
+      "2,### 3. 执行机制",
+      "3,##### 一般什么时候用到nextTick呢？",
+      "4,### 4.自我理解的nextTick",
+      "5,### 5.Vue中nextTick函数的实现",
+      "6,### Node.js的libve"
+    ],
+    "算法相关\/平铺转树.md" : [
+
+    ],
+    "Vue相关\/模版编译原理.md" : [
+      "0,## Vue 编译原理逻辑主要分三个部分",
+      "1,### 1.将模板字符串转换成element AST（解析器parser）",
+      "2,### 2.对ast进行静态节点标记，主要用来做虚拟dom的渲染优化（优化器optimizer）",
+      "3,### 3.使用element AST 生成render函数代码字符串（代码生成器code generator ）"
+    ],
+    "Js相关\/Promise核心.md" : [
+      "0,# 原型上的方法：",
+      "1,## 1、then：",
+      "2,## 2、catch：",
+      "3,## 3、finally：",
+      "4,## 4、resolve：",
+      "5,## 5、reject：",
+      "6,# 静态方法（类方法）：",
+      "7,## 1、all方法",
+      "8,## 2、allSettled方法：",
+      "9,## 3、race方法：",
+      "10,## 4、any方法：（ES12新增）",
+      "11,## 5、resolve方法",
+      "12,## 6、reject方法",
+      "13,# Promise A规范 ：",
+      "14,### promise相关面试题："
+    ],
+    "React相关\/connect函数总结.md" : [
+      "0,### react-redux是将redux和react结合起来的工具，我理解的connect函数:",
+      "1,### 源码中的理解",
+      "2,### connect函数内部的性能优化",
+      "3,### connect函数这和useSelector有所区别"
+    ],
+    "Vue相关\/手写vuex.md" : [
+
+    ],
+    "Vue相关\/vue实例和vnode.md" : [
+      "0,#### 组件是拓展的vue构造器，拓展的含义使用一些属性，方法，钩子函数，style作用域id等等来定制Vue构造器。"
+    ],
+    "浏览器相关\/渲染机制.md" : [
+      "0,# 浏览器的渲染机制",
+      "1,## 浏览器包含的进程",
+      "2,#### 1. `Browser`进程(浏览器的主进程, 负责协调和控制浏览器, 只有一个)",
+      "3,#### 2. 浏览器渲染进程，也是浏览器内核（多线程，他也是多个渲染进程）",
+      "4,#### 3.第三方插件进程",
+      "5,#### 4. `GPU`进程",
+      "6,#### 5. 网络进程（一个）",
+      "7,## Renderer进程（浏览器内核）和Browser进程之间的通信",
+      "8,## 渲染流程（接收到Browser进程的任务，并且拿到下载的资源）",
+      "9,#### 1. 构建dom树",
+      "10,#### 2. 样式计算（注意是计算）",
+      "11,#### 3. 布局阶段",
+      "12,#### 4. 分层",
+      "13,#### 5. 图层绘制",
+      "14,#### 6. 合成线程进行分块",
+      "15,#### 7. 栅格化",
+      "16,#### 8. 合成和显示",
+      "17,## 总结渲染过程",
+      "18,#### 重排：修改几何属性，影响layout后面全部",
+      "19,#### 重绘：修改绘制属性，影响paint后面所有",
+      "20,#### 合成：",
+      "21,## 浏览器的一帧动作",
+      "22,#### 1.渲染进程的合成线程（Compositor Thread）  ，从垂直信号入手",
+      "23,####  2.处理事件输入",
+      "24,####  3.RAF~requestAnimation",
+      "25,####  4.上面的渲染过程",
+      "26,#### 5.帧结束还有时间调用requestIdleCallback",
+      "27,## 重新理解浏览器的一帧"
+    ],
+    "从0开始\/css-3.md" : [
+
+    ],
+    "Vue相关\/三种watcher.md" : [
+      "0,####  `首先需要了解的几个对象`",
+      "1,#### `两个核心概念`：",
+      "2,#### `render Watcher`：",
+      "3,#### `user Watcher `：",
+      "4,#### `computed Watcher`："
+    ],
+    "webpack相关\/模块化理解.md" : [
+      "0,## CommonJS和ES Module的区别",
+      "1,#### 区别一：静态和动态",
+      "2,#### 区别二：值拷贝和动态映射",
+      "3,#### 区别三：ES Module在经过babel转化后还是成了CommonJS",
+      "4,### 总结ES Module的优势：",
+      "5,### 问题一： require，module等等都是从哪里来的"
+    ],
+    "React相关\/react渲染过程.md" : [
+      "0,# react的渲染流程：",
+      "1,#### 大体流程梳理：",
+      "2,##### 不论是首屏渲染还是更新渲染，这些渲染任务都会经过scheduler的调度（排列优先级）"
+    ],
+    "Vue相关\/vue3细节补充.md" : [
+      "0,### Vue2和Vue3的补充细节区别"
+    ],
+    "React相关\/redux的纯函数.md" : [
+
+    ],
+    "Vue相关\/vue3响应式原理.md" : [
+      "0,### ref:"
+    ],
+    "算法相关\/根据对象id去重.md" : [
+
+    ],
+    "React相关\/fiber.md" : [
+      "0,# fiber 双缓存树：",
+      "1,# fiber工作："
+    ],
+    "浏览器相关\/SSR.md" : [
+      "0,#### `SSR`的技术解决的问题：解决`CSR`痛点",
+      "1,#### 同构应用（水合 `hydrate`）："
+    ],
+    "浏览器相关\/Worker.md" : [
+      "0,### Web Worker官方解释",
+      "1,### Web Worker与Shared Worker",
+      "2,### Service Worker",
+      "3,##### Service Worker的特点"
+    ],
+    "浏览器相关\/定时器.md" : [
+      "0,### setTimeout而不是setInterval"
+    ],
+    "Js相关\/箭头函数.md" : [
+
+    ],
+    "React相关\/redux中间件异步操作.md" : [
+      "0,### redux中间件异步操作",
+      "1,#### 自己实现中间件",
+      "2,### combineReducer函数"
+    ],
+    "补充的重点知识\/前端工程化.md" : [
+      "0,# 前端工程化",
+      "1,#### 一 前端工程化（流程解决方案）",
+      "2,#### 二 `webpack`是实现前端工程的一部分"
+    ],
+    "webpack相关\/webpack理解.md" : [
+      "0,# 一、Webpack",
+      "1,## 1、Webpack中的module是指什么?",
+      "2,### 所以webpack modules 如何表达自己的各种依赖关系?",
+      "3,### 那么问题又来了, 我们常说的 chunk 和 bundle 的区别是什么?",
+      "4,## 2、比较重要的一些概念",
+      "5,### Plugin 和 Loader 分别是做什么的? 怎么工作的?",
+      "6,## 3、能简单描述一下webpack的打包流程吗？",
+      "7,## 4、手写一个迷你版的webpack"
+    ],
+    "React相关\/react的router.md" : [
+      "0,### 一般组件和路由组件之间的区别：",
+      "1,### 路由传值"
+    ],
+    "Vue相关\/阅读源码记录.md" : [
+      "0,## `initState`函数中：",
+      "1,### `initMethods`函数：",
+      "2,### `initData`函数：",
+      "3,## `VUE`六大模块",
+      "4,### 1. `complier`：编译相关",
+      "5,### 2. `core`：核心代码",
+      "6,### 3.` Platform` : 跨平台代码",
+      "7,### 4. `server`：服务端渲染",
+      "8,### 5. `sfc`：vue文件的解析器",
+      "9,### 6.`shared`：共享工具方法"
+    ],
+    "React相关\/react大体架构.md" : [
+      "0,## 宏观",
+      "1,## 一些数据结构",
+      "2,#### `scheduler`（调度器）：",
+      "3,#### `reconciler`（协调器）：",
+      "4,#### `Renderer`（浏览器中的渲染器是react-dom）：",
+      "5,#### `Concurrent`",
+      "6,###### react如果开启了异步渲染模式，会把所有复杂的操作放到每一帧的空余时间去做（idle）",
+      "7,###### 面试题：任务是如何中断，如何执行的？"
+    ],
+    "浏览器相关\/事件模型.md" : [
+      "0,## 详解浏览器事件捕获，冒泡",
+      "1,## addEventListener 第三个参数",
+      "2,## 阻止事件传播",
+      "3,## 阻止默认行为",
+      "4,## 兼容性",
+      "5,# 绑定事件的运用，以及封装一个多浏览器兼容的绑定事件函数",
+      "6,## 封装一个多浏览器兼容的绑定事件函数"
+    ],
+    "axios相关\/拦截器实现原理.md" : [
+      "0,#### 1. Axios构造函数",
+      "1,##### axios的interceptors属性是一个对象，而request和response都是是InterceptorManager对象，没有区别，只是先后执行的问题",
+      "2,#### 2. InterceptorManager构造函数",
+      "3,#### 3. Axios函数中的拦截器片段代码",
+      "4,#### 4. 纠结的问题"
+    ],
+    "React相关\/卡颂.md" : [
+
+    ],
+    "React相关\/what is react.md" : [
+      "0,# 什么是react ？学设计理想，数据结构。",
+      "1,# react解决了什么问题 ？",
+      "2,### 1. CPU 瓶颈：",
+      "3,### 2. IO瓶颈：",
+      "4,## 初衷："
+    ],
+    "浏览器相关\/RAF  RIC.md" : [
+      "0,### requestAnimationFrame - 不是宏任务",
+      "1,#### requestAnimationFrame 比起 setTimeout、setInterval 的优势主要有两点：",
+      "2,### requestIdleCallback函数",
+      "3,### MessageChannel -宏任务",
+      "4,### 理解react中的ric函数的polyfill"
+    ]
+  },
+  "path_name_info" : {
+    "Vue相关\/阅读源码记录.md" : "阅读源码记录",
+    "算法相关\/根据对象id去重.md" : "根据对象id去重",
+    "补充的重点知识\/前端工程化.md" : "前端工程化",
+    "从0开始\/html-5.md" : "html-5",
+    "Js相关\/类、原型、原型链.md" : "类、原型、原型链",
+    "浏览器相关\/渲染机制.md" : "渲染机制",
+    "React相关\/卡颂.md" : "卡颂",
+    "React相关\/一些问题的解释.md" : "一些问题的解释",
+    "Js相关\/手写Promise.md" : "手写Promise",
+    "React相关\/connect函数总结.md" : "connect函数总结",
+    "浏览器相关\/内置对象.md" : "内置对象",
+    "浏览器相关\/RAF  RIC.md" : "RAF  RIC",
+    "React相关\/fiber.md" : "fiber",
+    "浏览器相关\/请求相关.md" : "请求相关",
+    "Vue相关\/手写vuex.md" : "手写vuex",
+    "React相关\/react大体架构.md" : "react大体架构",
+    "React相关\/redux中间件异步操作.md" : "redux中间件异步操作",
+    "Js相关\/Promise核心.md" : "Promise核心",
+    "webpack相关\/webpack理解.md" : "webpack理解",
+    "浏览器相关\/定时器.md" : "定时器",
+    "补充的重点知识\/事件总线引出的一些问题.md" : "事件总线引出的一些问题",
+    "浏览器相关\/缓存策略.md" : "缓存策略",
+    "算法相关\/平铺转树.md" : "平铺转树",
+    "浏览器相关\/事件循环.md" : "事件循环",
+    "React相关\/react渲染过程.md" : "react渲染过程",
+    "Vue相关\/vue实例和vnode.md" : "vue实例和vnode",
+    "Vue相关\/vue3响应式原理.md" : "vue3响应式原理",
+    "axios相关\/拦截器实现原理.md" : "拦截器实现原理",
+    "浏览器相关\/SSR.md" : "SSR",
+    "补充的重点知识\/状态管理.md" : "状态管理",
+    "webpack相关\/模块化理解.md" : "模块化理解",
+    "Vue相关\/模版编译原理.md" : "模版编译原理",
+    "Vue相关\/三种watcher.md" : "三种watcher",
+    "React相关\/react的router.md" : "react的router",
+    "React相关\/redux的纯函数.md" : "redux的纯函数",
+    "浏览器相关\/Worker.md" : "Worker",
+    "Vue相关\/vue高级用法.md" : "vue高级用法",
+    "Vue相关\/vue3细节补充.md" : "vue3细节补充",
+    "浏览器相关\/事件模型.md" : "事件模型",
+    "从0开始\/css-3.md" : "css-3",
+    "React相关\/what is react.md" : "what is react",
+    "Js相关\/箭头函数.md" : "箭头函数"
+  },
+  "wiki_data_version" : "0.1",
+  "tags_paths" : {
+    "从0开始\/html-5.md" : [
+
+    ],
+    "React相关\/react大体架构.md" : [
+
+    ],
+    "算法相关\/平铺转树.md" : [
+
+    ],
+    "补充的重点知识\/状态管理.md" : [
+
+    ],
+    "浏览器相关\/SSR.md" : [
+
+    ],
+    "React相关\/connect函数总结.md" : [
+
+    ],
+    "Vue相关\/阅读源码记录.md" : [
+
+    ],
+    "Js相关\/Promise核心.md" : [
+
+    ],
+    "React相关\/redux中间件异步操作.md" : [
+
+    ],
+    "浏览器相关\/请求相关.md" : [
+
+    ],
+    "浏览器相关\/渲染机制.md" : [
+
+    ],
+    "React相关\/redux的纯函数.md" : [
+
+    ],
+    "浏览器相关\/定时器.md" : [
+
+    ],
+    "Vue相关\/模版编译原理.md" : [
+
+    ],
+    "Vue相关\/三种watcher.md" : [
+
+    ],
+    "React相关\/卡颂.md" : [
+
+    ],
+    "补充的重点知识\/前端工程化.md" : [
+
+    ],
+    "Js相关\/类、原型、原型链.md" : [
+
+    ],
+    "浏览器相关\/事件模型.md" : [
+
+    ],
+    "Vue相关\/手写vuex.md" : [
+
+    ],
+    "Vue相关\/vue实例和vnode.md" : [
+
+    ],
+    "webpack相关\/模块化理解.md" : [
+
+    ],
+    "axios相关\/拦截器实现原理.md" : [
+
+    ],
+    "Vue相关\/vue3细节补充.md" : [
+
+    ],
+    "Vue相关\/vue高级用法.md" : [
+
+    ],
+    "React相关\/react渲染过程.md" : [
+
+    ],
+    "浏览器相关\/事件循环.md" : [
+
+    ],
+    "算法相关\/根据对象id去重.md" : [
+
+    ],
+    "浏览器相关\/内置对象.md" : [
+
+    ],
+    "浏览器相关\/RAF  RIC.md" : [
+
+    ],
+    "Js相关\/箭头函数.md" : [
+
+    ],
+    "React相关\/react的router.md" : [
+
+    ],
+    "补充的重点知识\/事件总线引出的一些问题.md" : [
+
+    ],
+    "React相关\/fiber.md" : [
+
+    ],
+    "浏览器相关\/Worker.md" : [
+
+    ],
+    "浏览器相关\/缓存策略.md" : [
+
+    ],
+    "React相关\/一些问题的解释.md" : [
+
+    ],
+    "Js相关\/手写Promise.md" : [
+
+    ],
+    "从0开始\/css-3.md" : [
+
+    ],
+    "Vue相关\/vue3响应式原理.md" : [
+
+    ],
+    "webpack相关\/webpack理解.md" : [
+
+    ],
+    "React相关\/what is react.md" : [
+
+    ]
+  },
+  "links_backward_paths" : {
+    "get" : [
+      "Js相关\/类、原型、原型链.md"
+    ],
+    "Js相关\/get.md" : [
+      "Js相关\/类、原型、原型链.md"
+    ]
+  },
+  "tags_tags" : {
+
+  }
+}
