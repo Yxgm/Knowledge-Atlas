@@ -21,3 +21,7 @@ scheduler调度器会给渲染任务一个事件片（默认5ms），如果没�
 在render阶段：render阶段的主角是Reconciler，在mount阶段和update阶段，它会比较jsx和当前Fiber节点的差异（diff算法指的就是这个比较的过程），将带有副作用的Fiber节点标记出来，这些副作用有Placement（插入）、Update（更新）、Deletetion（删除）等，而这些带有副作用Fiber节点会加入一条EffectList中，在commit阶段就会遍历这条EffectList，处理相应的副作用，并且应用到真实节点上。而Scheduler和Reconciler都是在内存中工作的，所以他们不影响最后的呈现。
 
 在commit阶段：会遍历EffectList，处理相应的生命周期，将这些副作用应用到真实节点，这个过程会对应不同的渲染器，在浏览器的环境中就是react-dom，在canvas或者svg中就是reac-art等。
+
+
+
+fiber是实现时间分片和任务分片的基础，分片的目的只有一个，就是在reconciler阶段（纯JS计算）中一点一点的执行任务，并且带有优先级机制，让用户的交互快速响应的一个东西

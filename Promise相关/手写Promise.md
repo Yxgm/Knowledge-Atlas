@@ -195,21 +195,13 @@ const test = new MPromise((resolve, reject) => {
 static race(promiseList) {
         return new MPromise((resolve, reject) => {
             const length = promiseList.length;
-            if (length === 0) {
-                return resolve();
-            } else {
+            if (length === 0) return resolve();
+            else {
                 for (let i = 0; i < length; i++) {
-                    MPromise.resolve(promiseList[i]).then(
-                        (value) => {
-                            return resolve(value);
-                        },
-                        (reason) => {
-                            return reject(reason);
-                        });
+                    MPromise.resolve(promiseList[i]).then( (value) => resolve(value), (reason) => reject(reason) );
                 }
             }
         });
-
     }
 ```
 

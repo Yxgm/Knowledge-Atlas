@@ -1,6 +1,4 @@
-
-
-# 什么是react ？学设计理想，数据结构。
+## 什么是react ？学设计理想，数据结构。
 
 1. 基于函数式思想，践行代数效应 view=fn（state），而函数的最大的问题：副作用问题，影响外部一些变量
 2. react是基于mvc模式的一种设计模式，单向数据流
@@ -9,7 +7,7 @@
 5. learn once ，write anywhere
 5. <15  stack reconciler： 不可暂停 、16fiber reconciler  、18 concurrent mode （分别优先级，低级的优先级任务会在那个函数中运行）
 
-# react解决了什么问题 ？
+## react解决了什么问题 ？
 
 ### 1. CPU 瓶颈：
 
@@ -47,15 +45,7 @@ data fetching
 
 ## 两种工作方式
 
-workLoopSync：同步、workLoopConcurrent：时间切片
-
-```js
-function workLoopConcurrent() {//时间切片执行，执行performUnitOfWork函数。
-  while (workInProgress !== null && !shouldYield()) {
-    performUnitOfWork(workInProgress);
-  }
-}
-```
+> workLoopSync：同步、workLoopConcurrent：时间切片
 
 ## 宏观
 

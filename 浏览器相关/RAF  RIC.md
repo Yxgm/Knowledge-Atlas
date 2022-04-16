@@ -18,6 +18,14 @@
 - requestAnimationFrame 会把每一帧中的所有 DOM 操作集中起来，在一次重绘或回流中就完成，并且重绘或回流的时间间隔紧紧跟随浏览器的刷新频率，一般来说，这个频率为每秒 60 帧。
 - 在隐藏或不可见的元素中，requestAnimationFrame 将不会进行重绘或回流，这当然就意味着更少的的 cpu，gpu 和内存使用量。
 
+## 原理
+
+requestAnimationFrame() 方法接受一个回调函数，同时随机生成一个唯一的 handle 值作为标识符。回调函数和 handle 值共同组成一个元组 <handle, callback>，然后将这个元组推入动画帧请求回调函数队列中。
+
+当页面可见时，如果动画帧请求回调函数队列中有元组，那么浏览器就会清空队列并且执行这些回调函数。
+
+另外，每一个元组有一个 canceled 标识符，如果为 false，那么这个回调函数就不会在清空队列后被执行。cancleAnimationFrame() 方法的原理就是将这个标识符设置为 false。
+
 
 
 ### requestIdleCallback函数
@@ -43,4 +51,6 @@ react中使用messageChannel和raf 模拟了ric
 
 
 ### 理解react中的ric函数的polyfill
+
+请见react中的相关文档
 
